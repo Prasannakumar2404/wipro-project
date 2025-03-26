@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","59669","Applying an Invalid Coupon Code and Verifying Error Message","","Tue Mar 25 20:09:36 IST 2025","passed","Tue Mar 25 20:10:36 IST 2025","","Demo Web Shop Registration, Login, and Checkout","Applying an Invalid Coupon Code and Verifying Error Message",""
+"","57048","Checkout Process with Complete Flow","","Tue Mar 25 20:08:39 IST 2025","passed","Tue Mar 25 20:09:36 IST 2025","","Demo Web Shop Registration, Login, and Checkout","Checkout Process with Complete Flow",""
+"","42866","Login with Predefined Credentials","","Tue Mar 25 20:05:50 IST 2025","passed","Tue Mar 25 20:06:33 IST 2025","","Demo Web Shop Registration, Login, and Checkout","Login with Predefined Credentials",""
+"","44775","Adding Multiple Products to Cart & Validating Cart Summary","","Tue Mar 25 20:07:54 IST 2025","passed","Tue Mar 25 20:08:39 IST 2025","","Demo Web Shop Registration, Login, and Checkout","Adding Multiple Products to Cart & Validating Cart Summary",""
+"","39438","Login with Predefined Credentials","","Tue Mar 25 20:06:33 IST 2025","passed","Tue Mar 25 20:07:12 IST 2025","","Demo Web Shop Registration, Login, and Checkout","Login with Predefined Credentials",""
+"","50389","Registration and Login with Registered Credentials","","Tue Mar 25 20:05:00 IST 2025","passed","Tue Mar 25 20:05:50 IST 2025","","Demo Web Shop Registration, Login, and Checkout","Registration and Login with Registered Credentials",""
+"","41676","Add Product to Shopping Cart","","Tue Mar 25 20:07:12 IST 2025","passed","Tue Mar 25 20:07:54 IST 2025","","Demo Web Shop Registration, Login, and Checkout","Add Product to Shopping Cart",""

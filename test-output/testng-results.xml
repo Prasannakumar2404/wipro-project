@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-25T18:21:23 IST" name="Default suite" finished-at="2025-03-25T18:26:42 IST" duration-ms="318722">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@68e5eea7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-25T18:21:23 IST" name="Default test" finished-at="2025-03-25T18:26:42 IST" duration-ms="318722">
+      <class name="runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@68e5eea7]" started-at="2025-03-25T18:21:23 IST" name="setUpClass" finished-at="2025-03-25T18:21:24 IST" duration-ms="1177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6bfc5296]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpClass(java.lang.String)[pri:0, instance:runners.TestRunner@68e5eea7]" started-at="2025-03-25T18:21:24 IST" name="setUpClass" finished-at="2025-03-25T18:21:24 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@68e5eea7]" started-at="2025-03-25T18:21:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T18:22:12 IST" duration-ms="47879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration and Login with Registered Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Registration, Login, and Checkout"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@68e5eea7]" started-at="2025-03-25T18:22:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T18:22:52 IST" duration-ms="40033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with Predefined Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Registration, Login, and Checkout"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@68e5eea7]" started-at="2025-03-25T18:22:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T18:23:30 IST" duration-ms="38320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with Predefined Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Registration, Login, and Checkout"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@68e5eea7]" started-at="2025-03-25T18:23:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T18:24:10 IST" duration-ms="39860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add Product to Shopping Cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Registration, Login, and Checkout"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@68e5eea7]" started-at="2025-03-25T18:24:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T18:24:53 IST" duration-ms="42564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding Multiple Products to Cart & Validating Cart Summary"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Registration, Login, and Checkout"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@68e5eea7]" started-at="2025-03-25T18:24:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T18:25:45 IST" duration-ms="52072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checkout Process with Complete Flow"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Registration, Login, and Checkout"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@68e5eea7]" started-at="2025-03-25T18:25:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T18:26:41 IST" duration-ms="56697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Applying an Invalid Coupon Code and Verifying Error Message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Registration, Login, and Checkout"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@68e5eea7]" started-at="2025-03-25T18:26:41 IST" name="tearDownClass" finished-at="2025-03-25T18:26:42 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

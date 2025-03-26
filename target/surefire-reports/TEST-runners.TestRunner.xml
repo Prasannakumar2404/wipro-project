@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="340.905" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\user\.cache\selenium\chromedriver\win64\134.0.6998.165\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\user\CapestoneProject\target\test-classes;C:\Users\user\CapestoneProject\target\classes;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\user\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.3\webdrivermanager-5.9.3.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.4.1\docker-java-3.4.1.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.4.1\docker-java-core-3.4.1.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.4.1\docker-java-api-3.4.1.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.1\docker-java-transport-httpclient5-3.4.1.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.4.1\docker-java-transport-3.4.1.jar;C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.4.0\poi-ooxml-5.4.0.jar;C:\Users\user\.m2\repository\org\apache\poi\poi\5.4.0\poi-5.4.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.0\poi-ooxml-lite-5.4.0.jar;C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\user\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\user\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\user\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\user\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\user\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\user\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.27.0\allure-cucumber7-jvm-2.27.0.jar;C:\Users\user\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire17374481108499110468\surefirebooter-20250325200453492_3.jar C:\Users\user\AppData\Local\Temp\surefire17374481108499110468 2025-03-25T20-04-53_186-jvmRun1 surefire-20250325200453492_1tmp surefire_0-20250325200453492_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\user\CapestoneProject\target\test-classes;C:\Users\user\CapestoneProject\target\classes;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\user\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.3\webdrivermanager-5.9.3.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.4.1\docker-java-3.4.1.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.4.1\docker-java-core-3.4.1.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.4.1\docker-java-api-3.4.1.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.1\docker-java-transport-httpclient5-3.4.1.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.4.1\docker-java-transport-3.4.1.jar;C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.4.0\poi-ooxml-5.4.0.jar;C:\Users\user\.m2\repository\org\apache\poi\poi\5.4.0\poi-5.4.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.0\poi-ooxml-lite-5.4.0.jar;C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\user\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\user\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\user\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\user\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\user\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\user\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.27.0\allure-cucumber7-jvm-2.27.0.jar;C:\Users\user\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\user\CapestoneProject\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\user\CapestoneProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire17374481108499110468\surefirebooter-20250325200453492_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="user"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="C:\Users\user\CapestoneProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Users\user\Downloads\allure-2.33.0\allure-2.33.0\bin;C:\Users\user\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Registration and Login with Registered Credentials&quot;, &quot;Demo Web Shop Registration, Login, and Checkout&quot;](1)" classname="runners.TestRunner" time="50.693">
+    <system-out><![CDATA[TestRunner: Setting browser to chrome for thread 29
+
+Scenario: Registration and Login with Registered Credentials   &amp#27;[90m# src/test/resources/features/registration.feature:3&amp#27;[0m
+LoginSteps: Initializing browser chrome for thread 29
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on Demo Shop Home Page&amp#27;[0m                         &amp#27;[90m# stepdefinitions.LoginSteps.user_is_on_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to registration page&amp#27;[0m                     &amp#27;[90m# stepdefinitions.LoginSteps.user_navigates_to_registration_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser registers with random email and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test@123"&amp#27;[0m &amp#27;[90m# stepdefinitions.LoginSteps.user_registers_with_random_email_and_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser registration is successful&amp#27;[0m                         &amp#27;[90m# stepdefinitions.LoginSteps.user_registration_is_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser logs out&amp#27;[0m                                            &amp#27;[90m# stepdefinitions.LoginSteps.user_logs_out()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                            &amp#27;[90m# stepdefinitions.LoginSteps.user_navigates_to_login_page()&amp#27;[0m
+Entered email: test_tLf624o3@example.com
+Entered password: Test@123
+Clicked login button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser logs in with registered credentials&amp#27;[0m                 &amp#27;[90m# stepdefinitions.LoginSteps.user_logs_in_with_registered_credentials()&amp#27;[0m
+Login successful - Logout link found
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in!&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.LoginSteps.user_logged_in()&amp#27;[0m
+Cleanup: Returned to home page
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Mar 25, 2025 8:05:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 25, 2025 8:05:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with Predefined Credentials&quot;, &quot;Demo Web Shop Registration, Login, and Checkout&quot;](2)" classname="runners.TestRunner" time="42.889">
+    <system-out><![CDATA[
+Scenario Outline: Login with Predefined Credentials &amp#27;[90m# src/test/resources/features/registration.feature:23&amp#27;[0m
+LoginSteps: Initializing browser chrome for thread 29
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on Demo Shop Home Page&amp#27;[0m              &amp#27;[90m# stepdefinitions.LoginSteps.user_is_on_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                  &amp#27;[90m# stepdefinitions.LoginSteps.user_navigates_to_login_page()&amp#27;[0m
+Entered email: wipro234@gmail.com
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"wipro234@gmail.com"&amp#27;[0m       &amp#27;[90m# stepdefinitions.LoginSteps.user_enters_email(java.lang.String)&amp#27;[0m
+Entered password: Murali@2404
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Murali@2404"&amp#27;[0m            &amp#27;[90m# stepdefinitions.LoginSteps.user_enters_password(java.lang.String)&amp#27;[0m
+Clicked login button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Login button&amp#27;[0m                   &amp#27;[90m# stepdefinitions.LoginSteps.user_clicks_on_login_button()&amp#27;[0m
+Login successful - Logout link found
+Login successful - Proceeding to logout
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mlogin outcome is &amp#27;[0m&amp#27;[32m&amp#27;[1m"successful"&amp#27;[0m                &amp#27;[90m# stepdefinitions.LoginSteps.login_outcome_is(java.lang.String)&amp#27;[0m
+Cleanup: Returned to home page
+]]></system-out>
+    <system-err><![CDATA[Mar 25, 2025 8:05:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 25, 2025 8:05:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with Predefined Credentials&quot;, &quot;Demo Web Shop Registration, Login, and Checkout&quot;](3)" classname="runners.TestRunner" time="39.45">
+    <system-out><![CDATA[
+Scenario Outline: Login with Predefined Credentials &amp#27;[90m# src/test/resources/features/registration.feature:24&amp#27;[0m
+LoginSteps: Initializing browser chrome for thread 29
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on Demo Shop Home Page&amp#27;[0m              &amp#27;[90m# stepdefinitions.LoginSteps.user_is_on_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                  &amp#27;[90m# stepdefinitions.LoginSteps.user_navigates_to_login_page()&amp#27;[0m
+Entered email: invalid@credential.com
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid@credential.com"&amp#27;[0m   &amp#27;[90m# stepdefinitions.LoginSteps.user_enters_email(java.lang.String)&amp#27;[0m
+Entered password: password1
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password &amp#27;[0m&amp#27;[32m&amp#27;[1m"password1"&amp#27;[0m              &amp#27;[90m# stepdefinitions.LoginSteps.user_enters_password(java.lang.String)&amp#27;[0m
+Clicked login button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Login button&amp#27;[0m                   &amp#27;[90m# stepdefinitions.LoginSteps.user_clicks_on_login_button()&amp#27;[0m
+Login failed as expected - Error message: Login was unsuccessful. Please correct the errors and try again.
+No customer account found
+Login failed with error message as expected
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mlogin outcome is &amp#27;[0m&amp#27;[32m&amp#27;[1m"error message"&amp#27;[0m             &amp#27;[90m# stepdefinitions.LoginSteps.login_outcome_is(java.lang.String)&amp#27;[0m
+Cleanup: Returned to home page
+]]></system-out>
+    <system-err><![CDATA[Mar 25, 2025 8:06:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 25, 2025 8:06:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add Product to Shopping Cart&quot;, &quot;Demo Web Shop Registration, Login, and Checkout&quot;](4)" classname="runners.TestRunner" time="41.691">
+    <system-out><![CDATA[
+Scenario: Add Product to Shopping Cart               &amp#27;[90m# src/test/resources/features/registration.feature:26&amp#27;[0m
+LoginSteps: Initializing browser chrome for thread 29
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on Demo Shop Home Page&amp#27;[0m               &amp#27;[90m# stepdefinitions.LoginSteps.user_is_on_demo_shop_home_page()&amp#27;[0m
+Adding product to expected list: laptop at index 0
+Entered search term: laptop
+Clicked search button
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser searches for a product &amp#27;[0m&amp#27;[32m&amp#27;[1m"laptop"&amp#27;[0m          &amp#27;[90m# stepdefinitions.LoginSteps.user_searches_for_a_product(java.lang.String)&amp#27;[0m
+Selected product: laptop
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the product from search results&amp#27;[0m &amp#27;[90m# stepdefinitions.LoginSteps.user_clicks_on_the_product_from_search_results()&amp#27;[0m
+Clicked Add to Cart button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks Add to Cart&amp#27;[0m                        &amp#27;[90m# stepdefinitions.LoginSteps.user_clicks_add_to_cart()&amp#27;[0m
+Cart verification - Message:   The product has been added to your shopping cart, Quantity: (1)
+Product successfully added to cart
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mproduct is added to the cart successfully&amp#27;[0m     &amp#27;[90m# stepdefinitions.LoginSteps.product_is_added_to_the_cart_successfully()&amp#27;[0m
+Cleanup: Returned to home page
+]]></system-out>
+    <system-err><![CDATA[Mar 25, 2025 8:07:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 25, 2025 8:07:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Adding Multiple Products to Cart &amp; Validating Cart Summary&quot;, &quot;Demo Web Shop Registration, Login, and Checkout&quot;](5)" classname="runners.TestRunner" time="44.773">
+    <system-out><![CDATA[
+Scenario: Adding Multiple Products to Cart & Validating Cart Summary &amp#27;[90m# src/test/resources/features/registration.feature:33&amp#27;[0m
+LoginSteps: Initializing browser chrome for thread 29
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on Demo Shop Home Page&amp#27;[0m                               &amp#27;[90m# stepdefinitions.LoginSteps.user_is_on_demo_shop_home_page()&amp#27;[0m
+Adding product to expected list: laptop at index 0
+Entered search term: laptop
+Clicked search button
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser searches for a product &amp#27;[0m&amp#27;[32m&amp#27;[1m"laptop"&amp#27;[0m                          &amp#27;[90m# stepdefinitions.LoginSteps.user_searches_for_a_product(java.lang.String)&amp#27;[0m
+Selected product: laptop
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the product from search results&amp#27;[0m                 &amp#27;[90m# stepdefinitions.LoginSteps.user_clicks_on_the_product_from_search_results()&amp#27;[0m
+Clicked Add to Cart button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks Add to Cart&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.LoginSteps.user_clicks_add_to_cart()&amp#27;[0m
+Adding product to expected list: Smartphone at index 1
+Entered search term: Smartphone
+Clicked search button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser searches for a product &amp#27;[0m&amp#27;[32m&amp#27;[1m"Smartphone"&amp#27;[0m                       &amp#27;[90m# stepdefinitions.LoginSteps.user_searches_for_a_product(java.lang.String)&amp#27;[0m
+Selected product: Smartphone
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the product from search results&amp#27;[0m                 &amp#27;[90m# stepdefinitions.LoginSteps.user_clicks_on_the_product_from_search_results()&amp#27;[0m
+Clicked Add to Cart button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks Add to Cart&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.LoginSteps.user_clicks_add_to_cart()&amp#27;[0m
+Navigated to cart page
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigates to cart page&amp#27;[0m                                    &amp#27;[90m# stepdefinitions.LoginSteps.user_navigates_to_cart_page()&amp#27;[0m
+Verifying cart contents for products: laptop, Smartphone
+Number of items found in cart: 2
+Checking cart item: 14.1-inch laptop
+Found product in cart: laptop
+Checking cart item: 14.1-inch laptop
+Checking cart item: smartphone
+Found product in cart: Smartphone
+Raw total price text: 1690.00
+Cart total price: 1690.0 (Valid: true)
+Cart contents and total price verified successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mcart contains correct products and total price&amp#27;[0m                &amp#27;[90m# stepdefinitions.LoginSteps.cart_contains_correct_products_and_total_price()&amp#27;[0m
+Cleanup: Returned to home page
+]]></system-out>
+    <system-err><![CDATA[Mar 25, 2025 8:07:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 25, 2025 8:07:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Checkout Process with Complete Flow&quot;, &quot;Demo Web Shop Registration, Login, and Checkout&quot;](6)" classname="runners.TestRunner" time="57.061">
+    <system-out><![CDATA[
+Scenario: Checkout Process with Complete Flow                                                                                                                                                                                           &amp#27;[90m# src/test/resources/features/registration.feature:44&amp#27;[0m
+LoginSteps: Initializing browser chrome for thread 29
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on Demo Shop Home Page&amp#27;[0m                                                                                                                                                                                                  &amp#27;[90m# stepdefinitions.LoginSteps.user_is_on_demo_shop_home_page()&amp#27;[0m
+Entered search term: laptop
+Clicked search button
+Selected product: laptop
+Clicked Add to Cart button
+Cart verification - Message:   The product has been added to your shopping cart, Quantity: (1)
+Laptop added to cart
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser adds a laptop to the cart&amp#27;[0m                                                                                                                                                                                                    &amp#27;[90m# stepdefinitions.LoginSteps.user_adds_a_laptop_to_the_cart()&amp#27;[0m
+Navigated to cart page
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigates to cart page&amp#27;[0m                                                                                                                                                                                                      &amp#27;[90m# stepdefinitions.LoginSteps.user_navigates_to_cart_page()&amp#27;[0m
+Navigated to cart page
+Accepted terms and conditions
+Clicked checkout button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks Checkout&amp#27;[0m                                                                                                                                                                                                              &amp#27;[90m# stepdefinitions.LoginSteps.user_clicks_checkout()&amp#27;[0m
+Clicked Checkout as Guest button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser selects Checkout as Guest&amp#27;[0m                                                                                                                                                                                                    &amp#27;[90m# stepdefinitions.LoginSteps.user_selects_checkout_as_guest()&amp#27;[0m
+Selected country with ID: 2
+Available state options after selecting country 2: 13
+State Option 0: value=63, text=Alberta
+State Option 1: value=64, text=British Columbia
+State Option 2: value=65, text=Manitoba
+State Option 3: value=66, text=New Brunswick
+State Option 4: value=67, text=Newfoundland and Labrador
+State Option 5: value=68, text=Northwest Territories
+State Option 6: value=69, text=Nova Scotia
+State Option 7: value=70, text=Nunavut
+State Option 8: value=71, text=Ontario
+State Option 9: value=72, text=Prince Edward Island
+State Option 10: value=73, text=Quebec
+State Option 11: value=74, text=Saskatchewan
+State Option 12: value=75, text=Yukon Territory
+Fallback: Selected first available state with ID: 64
+Entered billing details: firstName=12, lastName=3, email=wipro234@gmail.com, company=TestCo, countryId=2, stateId=0, city=vk, address1=a, address2=b, zip=12, phone=123, fax=456
+Filled billing details
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters invalid shipping details with first name &amp#27;[0m&amp#27;[32m&amp#27;[1m"12"&amp#27;[0m&amp#27;[32m, last name &amp#27;[0m&amp#27;[32m&amp#27;[1m"3"&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m"wipro234@gmail.com"&amp#27;[0m&amp#27;[32m, company &amp#27;[0m&amp#27;[32m&amp#27;[1m"TestCo"&amp#27;[0m&amp#27;[32m, country id &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m&amp#27;[32m, state id &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m&amp#27;[32m, city &amp#27;[0m&amp#27;[32m&amp#27;[1m"vk"&amp#27;[0m&amp#27;[32m, address1 &amp#27;[0m&amp#27;[32m&amp#27;[1m"a"&amp#27;[0m&amp#27;[32m, address2 &amp#27;[0m&amp#27;[32m&amp#27;[1m"b"&amp#27;[0m&amp#27;[32m, zip &amp#27;[0m&amp#27;[32m&amp#27;[1m"12"&amp#27;[0m&amp#27;[32m, phone &amp#27;[0m&amp#27;[32m&amp#27;[1m"123"&amp#27;[0m&amp#27;[32m, and fax &amp#27;[0m&amp#27;[32m&amp#27;[1m"456"&amp#27;[0m &amp#27;[90m# stepdefinitions.LoginSteps.user_enters_invalid_shipping_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+Clicked continue on billing page
+Current URL after billing continue: https://demowebshop.tricentis.com/onepagecheckout
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks continue on checkout page&amp#27;[0m                                                                                                                                                                                             &amp#27;[90m# stepdefinitions.LoginSteps.user_clicks_continue_on_checkout_page()&amp#27;[0m
+Selected In-Store Pickup
+Shipping continue button is visible after selecting In-Store Pickup
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser selects in-store pickup&amp#27;[0m                                                                                                                                                                                                      &amp#27;[90m# stepdefinitions.LoginSteps.user_selects_in_store_pickup()&amp#27;[0m
+Clicked continue on shipping page
+Current URL after shipping continue: https://demowebshop.tricentis.com/onepagecheckout
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks continue on shipping page&amp#27;[0m                                                                                                                                                                                             &amp#27;[90m# stepdefinitions.LoginSteps.user_clicks_continue_on_shipping_page()&amp#27;[0m
+Selected Cash on Delivery
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser selects cash on delivery&amp#27;[0m                                                                                                                                                                                                     &amp#27;[90m# stepdefinitions.LoginSteps.user_selects_cash_on_delivery()&amp#27;[0m
+Payment continue button is visible
+Payment continue button is clickable
+Clicked continue on payment page
+Successfully advanced to confirmation step - Confirm button is clickable
+Current URL after payment continue: https://demowebshop.tricentis.com/onepagecheckout
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks continue on payment page&amp#27;[0m                                                                                                                                                                                              &amp#27;[90m# stepdefinitions.LoginSteps.user_clicks_continue_on_payment_page()&amp#27;[0m
+Confirm order button is clickable
+Clicked confirm order button
+Current URL after confirm: https://demowebshop.tricentis.com/onepagecheckout
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks confirm order button&amp#27;[0m                                                                                                                                                                                                  &amp#27;[90m# stepdefinitions.LoginSteps.user_clicks_confirm_order_button()&amp#27;[0m
+Order confirmation displayed: Your order has been successfully processed!
+Confirmation check result: true
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32morder confirmation is displayed&amp#27;[0m                                                                                                                                                                                                  &amp#27;[90m# stepdefinitions.LoginSteps.order_confirmation_is_displayed()&amp#27;[0m
+Cleanup: Returned to home page
+]]></system-out>
+    <system-err><![CDATA[Mar 25, 2025 8:08:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 25, 2025 8:08:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Applying an Invalid Coupon Code and Verifying Error Message&quot;, &quot;Demo Web Shop Registration, Login, and Checkout&quot;](7)" classname="runners.TestRunner" time="59.675">
+    <system-out><![CDATA[
+Scenario: Applying an Invalid Coupon Code and Verifying Error Message                                               &amp#27;[90m# src/test/resources/features/registration.feature:59&amp#27;[0m
+LoginSteps: Initializing browser chrome for thread 29
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on Demo Shop Home Page&amp#27;[0m                                                                              &amp#27;[90m# stepdefinitions.LoginSteps.user_is_on_demo_shop_home_page()&amp#27;[0m
+Entered search term: Computing and Internet
+Clicked search button
+Selected product: Computing and Internet
+Clicked Add to Cart button
+Cart verification - Message:   The product has been added to your shopping cart, Quantity: (1)
+Computing and Internet added to cart for coupon testing
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user adds a product &amp#27;[0m&amp#27;[32m&amp#27;[1m"Computing and Internet"&amp#27;[0m&amp#27;[32m to the cart for coupon testing&amp#27;[0m                              &amp#27;[90m# stepdefinitions.LoginSteps.the_user_adds_a_product_to_the_cart_for_coupon_testing(java.lang.String)&amp#27;[0m
+Navigated to cart page. Title: Demo Web Shop. Shopping Cart
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user navigates to the shopping cart page&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.LoginSteps.the_user_navigates_to_the_shopping_cart_page()&amp#27;[0m
+Entered coupon code: INVALID123
+Entered coupon code: INVALID123
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user enters the discount code &amp#27;[0m&amp#27;[32m&amp#27;[1m"INVALID123"&amp#27;[0m                                                                &amp#27;[90m# stepdefinitions.LoginSteps.the_user_enters_the_discount_code(java.lang.String)&amp#27;[0m
+Clicked Apply Coupon button
+Message (error or otherwise) appeared within 10 seconds.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user clicks the apply coupon button&amp#27;[0m                                                                       &amp#27;[90m# stepdefinitions.LoginSteps.the_user_clicks_the_apply_coupon_button()&amp#27;[0m
+No message found with locator By.cssSelector: .message-error: Expected condition failed: waiting for visibility of element located by By.cssSelector: .message-error (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55892}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55892/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a39a415a13dd405e35a249a22a192444
+Retrieved coupon error message from By.cssSelector: .message: The coupon code you entered couldn't be applied to your order
+Coupon error message verified: The coupon code you entered couldn't be applied to your order
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe coupon error message &amp#27;[0m&amp#27;[32m&amp#27;[1m"The coupon code you entered couldn't be applied to your order"&amp#27;[0m&amp#27;[32m should be displayed&amp#27;[0m &amp#27;[90m# stepdefinitions.LoginSteps.the_coupon_error_message_should_be_displayed(java.lang.String)&amp#27;[0m
+Cleanup: Returned to home page
+]]></system-out>
+    <system-err><![CDATA[Mar 25, 2025 8:09:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 25, 2025 8:09:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
