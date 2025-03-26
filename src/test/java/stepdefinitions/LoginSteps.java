@@ -69,7 +69,7 @@ public class LoginSteps extends BaseClass {
 
     @Given("user is on Demo Shop Home Page")
     public void user_is_on_demo_shop_home_page() {
-        // Driver initialization in @Before ensures we're on home page
+        
     }
 
     @When("user navigates to registration page")

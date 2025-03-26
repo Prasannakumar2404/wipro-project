@@ -11,11 +11,11 @@ public class CouponPage {
     private WebDriver driver;
     private WebDriverWait wait;
 
-    // Locators
+    
     private By cartLink = By.linkText("Shopping cart");
     private By couponCodeField = By.name("discountcouponcode");
     private By applyCouponButton = By.name("applydiscountcouponcode");
-    private By couponErrorMessage = By.cssSelector(".message-error"); // Keep this, but we'll handle it better
+    private By couponErrorMessage = By.cssSelector(".message-error"); 
     private By cartItems = By.cssSelector(".cart-item-row");
 
     public CouponPage(WebDriver driver, WebDriverWait wait) {
@@ -44,12 +44,12 @@ public class CouponPage {
         applyButton.click();
         System.out.println("Clicked Apply Coupon button");
 
-        // Wait for any update on the page (e.g., error message or page refresh)
+       
         WebDriverWait shortWait = new WebDriverWait(driver, Duration.ofSeconds(10));
         try {
             shortWait.until(ExpectedConditions.or(
                 ExpectedConditions.visibilityOfElementLocated(couponErrorMessage),
-                ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".message")) // Fallback from friend's version
+                ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".message")) 
             ));
             System.out.println("Message (error or otherwise) appeared within 10 seconds.");
         } catch (Exception e) {
@@ -59,11 +59,11 @@ public class CouponPage {
     }
 
     public String getCouponErrorMessage() {
-        // Try multiple possible locators for the error message
+       
         By[] possibleLocators = {
-            By.cssSelector(".message-error"), // Your original
-            By.cssSelector(".message"),       // Friend's version
-            By.xpath("//div[contains(@class, 'message-error')]//li") // More specific if nested
+            By.cssSelector(".message-error"), 
+            By.cssSelector(".message"),       
+            By.xpath("//div[contains(@class, 'message-error')]//li") 
         };
 
         for (By locator : possibleLocators) {
